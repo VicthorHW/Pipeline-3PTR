@@ -1,0 +1,17 @@
+# Arquivos de saída e intermediários gerados pela Pipeline
+gcodes/
+oriented_stls/
+renders_mesh/
+
+# Ambiente Virtual Python
+venv/
+env/
+
+# Arquivos temporários e cache do Python (Sempre bom ter)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar o arquivo de teste local (opcional, mas recomendado se você ficar gerando lixo nele)
+teste.stl
