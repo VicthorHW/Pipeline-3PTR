@@ -1,0 +1,145 @@
+{
+    "config_global": {
+        "escala_padrao": 1.0,
+        "multiplicador_luz_cena": 1.0
+    },
+    "materiais": {
+        "preto": {
+            "cor_hex": "#050505",
+            "roughness": 0.0,
+            "specular": 0.0,
+            "metallic": 0.14,
+            "transmission": 0.0,
+            "subsurface": 0.29
+        },
+        "branco": {
+            "cor_hex": "#FFFFFF",
+            "roughness": 0.6,
+            "specular": 0.3,
+            "metallic": 0.0,
+            "transmission": 0.0,
+            "subsurface": 0.0
+        },
+        "cinza": {
+            "cor_hex": "#808080",
+            "roughness": 0.6,
+            "specular": 0.4,
+            "metallic": 0.0,
+            "transmission": 1.0,
+            "subsurface": 0.0
+        },
+        "petg_translucido": {
+            "cor_hex": "#ffaafe",
+            "roughness": 0.2,
+            "specular": 0.0,
+            "metallic": 0.0,
+            "transmission": 0.0,
+            "subsurface": 0.0
+        },
+        "PLA - Preto": {
+            "cor_hex": "#1A1A1A",
+            "roughness": 0.6,
+            "specular": 0.5,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PLA - Branco": {
+            "cor_hex": "#F0F0F0",
+            "roughness": 0.6,
+            "specular": 0.5,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PLA - Cinza": {
+            "cor_hex": "#808080",
+            "roughness": 0.6,
+            "specular": 0.5,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PLA - Marrom": {
+            "cor_hex": "#654321",
+            "roughness": 0.7,
+            "specular": 0.3,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PLA - Verde": {
+            "cor_hex": "#228B22",
+            "roughness": 0.6,
+            "specular": 0.5,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PLA - Azul": {
+            "cor_hex": "#0000CD",
+            "roughness": 0.6,
+            "specular": 0.5,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PLA - Azul Claro": {
+            "cor_hex": "#87CEEB",
+            "roughness": 0.6,
+            "specular": 0.5,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "ABS - Preto": {
+            "cor_hex": "#111111",
+            "roughness": 0.5,
+            "specular": 0.6,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "ABS - Branco": {
+            "cor_hex": "#EEEEEE",
+            "roughness": 0.5,
+            "specular": 0.6,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PETG - Preto": {
+            "cor_hex": "#1A1A1A",
+            "roughness": 0.4,
+            "specular": 0.8,
+            "transmission": 0.0,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        },
+        "PETG - Transparente": {
+            "cor_hex": "#FFFFFF",
+            "roughness": 0.1,
+            "specular": 0.9,
+            "transmission": 0.95,
+            "subsurface": 0.0,
+            "metallic": 0.0
+        }
+    },
+    "config_app": {
+        "prev_res": 20,
+        "prev_samples": 20,
+        "prev_time": 0,
+        "escala_global": 2.0,
+        "perfil_slicer": [
+            "020_standard"
+        ],
+        "cenario": [
+            "template_ecommerce.blend"
+        ],
+        "auto_orient": false,
+        "samples": 60,
+        "res_producao": 50,
+        "max_time": 0,
+        "auto_preview_toggle": false
+    }
+}

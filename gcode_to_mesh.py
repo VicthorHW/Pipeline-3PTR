@@ -2,6 +2,10 @@ import argparse
 import numpy as np
 import trimesh
 import re
+import sys
+
+# Vacina contra o terminal do Windows
+sys.stdout.reconfigure(encoding='utf-8')
 
 def convert_gcode_to_stl(input_gcode, output_stl, quality=4):
     print(f"📦 Filtrando e convertendo: {input_gcode}")
