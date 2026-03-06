@@ -167,3 +167,5 @@ Bash
 python pipeline.py --file trava_scooter.stl --profile 012_fine --material cinza --samples 64 --time 90
 
 pip install streamlit
+
+pip install fastapi uvicorn pydantic python-multipart
